@@ -65,6 +65,7 @@ body{
     padding-left: 16px;
     color: #004aad;
     margin-bottom: 30px;
+    
 }
 
 span{
@@ -73,4 +74,10 @@ span{
     background-color: #004aad;
     color: #f8fdfc;
 
+}
+
+.discount-image{
+  width: 150px;
+  margin-right: 16px;
+  float: right;
 }
