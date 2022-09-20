@@ -4,12 +4,8 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-
 }
 
-body{
-    background:#f8fdfc;
-}
 
 .mobile-container {
     max-width: 480px;
@@ -80,4 +76,17 @@ span{
   width: 150px;
   margin-right: 16px;
   float: right;
+}
+
+.page-2-title{
+  margin-top: 220px;
+  color: #004aad;
+
+}
+
+.text-page-2{
+ padding: 40px 16px;
+ line-height: 1.5;
+ margin-bottom: 30px;
+ 
 }
