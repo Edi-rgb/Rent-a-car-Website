@@ -90,3 +90,40 @@ span{
  margin-bottom: 30px;
  
 }
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7px;
+
+}
+
+.card{
+  box-shadow: 3px 3px #9aa7b2;
+  margin: 3px 4px;
+  text-align: center;
+  border-radius: 5px;
+  height: auto;
+
+}
+
+.img-card{
+  width: 116px;
+  height: 100px;
+
+}
+
+.text-a{
+  font-size: 16px;
+}
+
+.a-link{
+  border-radius: 30px;
+
+}
+
+.span-text{
+  padding: 5px 25px;
+  background-color: red;
+  font-weight: 500;
+}
