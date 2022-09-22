@@ -21,86 +21,121 @@
         <div class="topnav">
             <img class="logo-png" src="Assets/logo.png" alt="logo">
             </a>
-        <section>
-            <!-- Navigation links (hidden by default) -->
-            <div id="myLinks">
-                <a class="center" href="#news" style="margin-top: 5% ;">Home</a>
-                <a class="center" href="#contact">Despre noi</a>
-                <a class="center" href="#about">Contact si locatii</a>
-                <a class="center" href="#about">Termeni si conditii</a>
+            <section>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <a class="center" href="#news" style="margin-top: 5% ;">Home</a>
+                    <a class="center" href="#contact">Despre noi</a>
+                    <a class="center" href="#about">Contact si locatii</a>
+                    <a class="center" href="#about">Termeni si conditii</a>
+                </div>
+
+                <p class="title"><strong>Rezerva acum si modifica <br> oricand</strong></p>
+
+                <a class="button-tel" href="#"><span class="tel">0723 665 221</span></a>
+
+                <img class="discount-image" src="Assets/discount.png" alt="discount-image">
+            </section>
+            <div>
+                <h1 class="center page-2-title"> Inchieri auto Romania </h1>
+                <p class="text-page-2">Klass Wagen oferă servicii de rent a car cu o flotă de peste 350 de autoturisme
+                    noi, din 16 mărci corespunzătoare
+                    tuturor claselor de mărime. Livrarea şi predarea autoturismului sunt gratuite în marile oraşe,
+                    precum şi în
+                    aeroporturile internaţionale.
+                </p>
             </div>
 
-            <p class="title"><strong>Rezerva acum si modifica <br> oricand</strong></p>
+            <div class="container">
+                <div class="card">
+                    <img class="img-card" src="Assets/car.png" alt="car-pic">
+                    <h1 class="text-a">Alfa Romeo</h1>
+                    <a href="" class="a-link"><span class="span-text">Rezerva</span></a>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="Assets/car.png" alt="car-pic">
+                    <h1 class="text-a">Alfa Romeo</h1>
+                    <a href="" class="a-link"><span class="span-text">Rezerva</span></a>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="Assets/car.png" alt="car-pic">
+                    <h1 class="text-a">Alfa Romeo</h1>
+                    <a href="" class="a-link"><span class="span-text">Rezerva</span></a>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="Assets/car.png" alt="car-pic">
+                    <h1 class="text-a">Alfa Romeo</h1>
+                    <a href="" class="a-link"><span class="span-text">Rezerva</span></a>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="Assets/car.png" alt="car-pic">
+                    <h1 class="text-a">Alfa Romeo</h1>
+                    <a href="" class="a-link"><span class="span-text">Rezerva</span></a>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="Assets/car.png" alt="car-pic">
+                    <h1 class="text-a">Alfa Romeo</h1>
+                    <a href="" class="a-link"><span class="span-text">Rezerva</span></a>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="Assets/car.png" alt="car-pic">
+                    <h1 class="text-a">Alfa Romeo</h1>
+                    <a href="" class="a-link"><span class="span-text">Rezerva</span></a>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="Assets/car.png" alt="car-pic">
+                    <h1 class="text-a">Alfa Romeo</h1>
+                    <a href="" class="a-link"><span class="span-text">Rezerva</span></a>
+                </div>
+            </div>
 
-            <a class="button-tel" href="#"><span>0723 665 221</span></a>
+            <div class="form-section">
+                <div class="form-card">
+                    <form>
+                        <h3 class="form-h3"><strong>Aflati tarifele pentru perioada dorita</strong></h3><br>
+                        <label for="#">Locatie primire: </label><br>
+                        <select name="locatii" id="locatii">
+                            <option value="varianta-1">aeroporturile Romaniei</option>
+                        </select><br><br>
+                        <label for="#">Data si ora de primire:</label><br>
+                        <input type="date" id="start" name="trip-start" value="2022-01-01" min="2022-01-01"
+                            max="2030-12-31"><br><br>
 
-            <img class="discount-image" src="Assets/discount.png" alt="discount-image">
-    </section>
-    <div>
-        <h1 class="center page-2-title"> Inchieri auto Romania </h1>
-        <p class="text-page-2" >Klass Wagen oferă servicii de rent a car cu o flotă de peste 350 de autoturisme noi, din 16 mărci corespunzătoare
-            tuturor claselor de mărime. Livrarea şi predarea autoturismului sunt gratuite în marile oraşe, precum şi în
-            aeroporturile internaţionale.
-        </p>
-    </div>
+                        <label for="#">Locatie predare: </label><br>
+                        <select name="locatii" id="locatii">
+                            <option value="varianta-1">aeroporturile Romaniei</option>
+                        </select><br><br>
+                        <label for="#">Data si ora predari:</label><br>
+                        <input type="date" id="start" name="trip-start" value="2022-01-01" min="2022-01-01"
+                            max="2030-12-31"><br><br>
+                        <label for="#">Numele Soferului:</label><br>
+                        <input type="text" placeholder="Numele complet..." required><br><br>
+                        <label for="#">Telefon:</label><br>
+                        <input type="tel" placeholder="Numarul de telefon..." required><br><br>
+                        <input type="checkbox" required>
+                        <label for="#">Am citit si sunt de acord cu Politica de Confidentialitate privind prelucrarea
+                            datelor cu caracter personal. <span>Detali Aici</span> </label><br><br>
+                        <button type="submit">Continuare</button>
 
-    <div class="container">
-        <div class="card">
-            <img class="img-card" src="Assets/car.png" alt="car-pic">
-            <h1 class="text-a">Alfa Romeo</h1>
-            <a href="" class="a-link" ><span class="span-text" >Rezerva</span></a>
-        </div>
-        <div class="card">
-            <img class="img-card" src="Assets/car.png" alt="car-pic">
-            <h1 class="text-a">Alfa Romeo</h1>
-            <a href="" class="a-link" ><span class="span-text" >Rezerva</span></a>
-        </div>
-        <div class="card">
-            <img class="img-card" src="Assets/car.png" alt="car-pic">
-            <h1 class="text-a">Alfa Romeo</h1>
-            <a href="" class="a-link" ><span class="span-text" >Rezerva</span></a>
-        </div>
-        <div class="card">
-            <img class="img-card" src="Assets/car.png" alt="car-pic">
-            <h1 class="text-a" >Alfa Romeo</h1>
-            <a href="" class="a-link" ><span class="span-text" >Rezerva</span></a>
-        </div>
-        <div class="card">
-            <img class="img-card" src="Assets/car.png" alt="car-pic">
-            <h1 class="text-a" >Alfa Romeo</h1>
-            <a href="" class="a-link" ><span class="span-text" >Rezerva</span></a>
-        </div>
-        <div class="card">
-            <img class="img-card" src="Assets/car.png" alt="car-pic">
-            <h1 class="text-a" >Alfa Romeo</h1>
-            <a href="" class="a-link" ><span class="span-text" >Rezerva</span></a>
-        </div>
-        <div class="card">
-            <img class="img-card" src="Assets/car.png" alt="car-pic">
-            <h1 class="text-a" >Alfa Romeo</h1>
-            <a href="" class="a-link" ><span class="span-text" >Rezerva</span></a>
-        </div>
-        <div class="card">
-            <img class="img-card" src="Assets/car.png" alt="car-pic">
-            <h1 class="text-a" >Alfa Romeo</h1>
-            <a href="" class="a-link" ><span class="span-text" >Rezerva</span></a>
-        </div>
-    </div>
+                    </form>
+                </div>
+            </div>
 
-    <footer>
-        <div class="text-box">
-            <h1><img src="https://img.icons8.com/material/24/000000/cheap-2.png"/> Plateste cum doresti</h1>
-            <h1><img src="https://img.icons8.com/material/24/000000/hourglass.png"/> Livrare rapida, in toata tara</h1>
-            <h1><img src="https://img.icons8.com/material/24/000000/phone--v1.png"/> Suport telefonic 24/7</h1>
+            <footer>
+                <div class="text-box">
+                    <h1><img src="https://img.icons8.com/material/24/000000/cheap-2.png" /> Plateste cum doresti</h1>
+                    <h1><img src="https://img.icons8.com/material/24/000000/hourglass.png" /> Livrare rapida, in toata
+                        tara</h1>
+                    <h1><img src="https://img.icons8.com/material/24/000000/phone--v1.png" /> Suport telefonic 24/7</h1>
+                </div>
+            </footer>
+
+            <!--"Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="padding-top: 34px ;">
+                <i class="fa fa-bars"></i>
+            </a>
+
         </div>
-    </footer>
-
-    <!--"Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="padding-top: 34px ;">
-        <i class="fa fa-bars"></i>
-    </a>
-
-    </div>
 
 </body>
 
