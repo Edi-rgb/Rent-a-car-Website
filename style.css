@@ -146,7 +146,7 @@
 .form-card{
   box-shadow: 3px 3px 2px #9aa7b2;
   display: flex;
-  height: 520px;
+  height: auto;
   margin: 10px 4px;
   padding: 20px;
   border-radius: 10px;
@@ -154,5 +154,34 @@
 
 .form-h3{
   color: #004aad;
+}
+
+input{
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+select{
+  padding: 5px;
+  border: 2px solid black;
+  background: transparent;
+  border-radius: 5px;
+
+}
+
+#start{
+  padding: 5px;
+  border: 2px solid black;
+  background: transparent;
+  border-radius: 5px;
+}
+
+#button-form{
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 3px;
+  background: transparent;
+  float: right;
 }
 
