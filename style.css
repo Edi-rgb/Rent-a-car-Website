@@ -190,3 +190,8 @@ select{
   font-size: large;
 }
 
+label{
+  line-height: 30px;
+  font-size: 18px;
+}
+
