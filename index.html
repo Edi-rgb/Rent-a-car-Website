@@ -94,6 +94,14 @@
                 <div class="form-card">
                     <form>
                         <h3 class="form-h3"><strong>Aflati tarifele pentru perioada dorita</strong></h3><br>
+
+                        <label for="#">Numele Soferului:</label><br>
+                        <input type="text" pattern="[A-Az-a]" oninvalid="setCustomValidity('Please enter on alphabets only. ')" required><br><br>
+                        <label for="#">Telefon:</label><br>
+                        <input type="number"  placeholder="" required><br><br>
+
+                        <hr><br>
+
                         <label for="#">Locatie primire: </label><br>
                         <select name="locatii" id="locatii">
                             <option value="varianta-1">aeroporturile Romaniei</option>
@@ -101,7 +109,7 @@
                         <label for="#">Data si ora de primire:</label><br>
                         <input type="date" id="start" name="trip-start" value="2022-01-01" min="2022-01-01"
                             max="2030-12-31"><br><br>
-
+                            <hr><br>
                         <label for="#">Locatie predare: </label><br>
                         <select name="locatii" id="locatii">
                             <option value="varianta-1">aeroporturile Romaniei</option>
@@ -109,14 +117,12 @@
                         <label for="#">Data si ora predari:</label><br>
                         <input type="date" id="start" name="trip-start" value="2022-01-01" min="2022-01-01"
                             max="2030-12-31"><br><br>
-                        <label for="#">Numele Soferului:</label><br>
-                        <input type="text" placeholder="Numele complet..." required><br><br>
-                        <label for="#">Telefon:</label><br>
-                        <input type="tel" placeholder="Numarul de telefon..." required><br><br>
-                        <input type="checkbox" required>
+                            <hr><br>
+                            <input type="checkbox" required>
                         <label for="#">Am citit si sunt de acord cu Politica de Confidentialitate privind prelucrarea
                             datelor cu caracter personal.</label><br><br>
                         <button id="button-form" type="submit">Continuare</button>
+                        
 
                     </form>
                 </div>

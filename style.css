@@ -150,9 +150,6 @@ body{
   text-align: center;
   font-size: 15px;
 
-  
-
-
 }
 
 .form-card{
@@ -171,41 +168,48 @@ body{
 }
 
 input{
-  border: 2px solid black;
-  padding: 5px;
-  border-radius: 20px;
+  background: #e9edef;
+  padding: 5px 16px;
+  border-radius: 8px;
   font-size: large;
+  border: none;
+  text-align: center;
   
 }
 
 select{
   padding: 5px;
-  border: 2px solid black;
-  background: transparent;
-  border-radius: 5px;
+  background: #e9edef;
+  border-radius: 8px;
   text-align: center;
   font-size: large;
+  border: none;
+  text-align-last: center;
 
 }
 
 #start{
   padding: 5px;
-  border: 2px solid black;
-  background: transparent;
+  border: none;
+  background: #e9edef;
   border-radius: 5px;
+  text-align: center;
 }
 
 #button-form{
-  border: 2px solid black;
+  border: none;
   padding: 5px;
-  border-radius: 3px;
-  background: transparent;
+  border-radius: 8px;
+  background: #004aad;
   float: right;
   font-size: large;
+  color: #e9edef;
 }
 
 label{
-  line-height: 30px;
-  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
