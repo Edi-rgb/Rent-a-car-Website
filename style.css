@@ -198,12 +198,13 @@ select{
 
 #button-form{
   border: none;
-  padding: 5px;
+  padding: 14px;
   border-radius: 8px;
   background: #004aad;
   float: right;
   font-size: large;
   color: #e9edef;
+  font-weight: 600;
 }
 
 label{
