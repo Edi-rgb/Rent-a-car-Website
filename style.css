@@ -168,7 +168,7 @@ body{
 }
 
 input{
-  background: #e7eae5;
+  background: #e0e0e0;
   padding: 5px 16px;
   border-radius: 8px;
   font-size: large;
@@ -179,7 +179,7 @@ input{
 
 select{
   padding: 5px;
-  background: #e7eae5;
+  background: #e0e0e0;
   border-radius: 8px;
   text-align: center;
   font-size: large;
@@ -191,7 +191,7 @@ select{
 #start{
   padding: 5px;
   border: none;
-  background: #e7eae5;
+  background: #e0e0e0;
   border-radius: 5px;
   text-align: center;
 }

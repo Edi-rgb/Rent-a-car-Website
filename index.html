@@ -97,8 +97,8 @@
 
                         <label for="#">Numele Soferului:</label><br>
                         <input type="text" pattern="[A-Az-a]" oninvalid="setCustomValidity('Please enter on alphabets only. ')" required><br><br>
-                        <label for="#">Telefon:</label><br>
-                        <input type="number"  placeholder="" required><br><br>
+                        <label for="telNo">Telefon:</label><br>
+                        <input type="tel" oninvalid="setCustomValidity('Please enter only numbers 0-9')"  placeholder="" required><br><br>
 
                         <hr><br>
 
@@ -118,9 +118,8 @@
                         <input type="date" id="start" name="trip-start" value="2022-01-01" min="2022-01-01"
                             max="2030-12-31"><br><br>
                             <hr><br>
-                            <input type="checkbox" required>
-                        <label for="#">Am citit si sunt de acord cu Politica de Confidentialitate privind prelucrarea
-                            datelor cu caracter personal.</label><br><br>
+                        <input type="checkbox" required>
+                        <label for="#">Am citit si sunt de acord cu Politica de Confidentialitate privind prelucrarea datelor cu caracter personal.</label><br><br>
                         <button id="button-form" type="submit">Continuare</button>
                         
 
