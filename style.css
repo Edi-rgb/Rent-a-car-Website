@@ -198,11 +198,11 @@ select{
 
 #button-form{
   border: none;
-  padding: 10px;
+  padding: 15px 10px;
   border-radius: 8px;
   background: #004aad;
   float: right;
-  font-size: large;
+  font-size: 18px;
   color: #e9edef;
   font-weight: 600;
 }
