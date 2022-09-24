@@ -64,9 +64,9 @@ body {
 
 .title {
   font-size: 24px;
-  padding: 80px 8px 8px 8px;
+  padding: 60px 8px 8px 8px;
   color: #004aad;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 
 }
 
@@ -79,13 +79,14 @@ body {
 }
 
 .discount-image {
+  margin-top: 40px;
   width: 150px;
   margin-right: 16px;
   float: right;
 }
 
 .page-2-title {
-  margin-top: 220px;
+  margin-top: 230px;
   color: #004aad;
 
 }
