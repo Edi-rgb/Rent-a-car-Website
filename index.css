@@ -75,6 +75,7 @@ body {
   border-radius: 130px;
   background-color: #004aad;
   color: #f8fdfc;
+  display: inline-flex;
 
 }
 
@@ -106,6 +107,17 @@ body {
   justify-content: center;
   align-items: center;
 
+}
+
+@media screen and (max-width: 320px) {
+  .container{
+    display: grid;
+    grid-template-columns: repeat(1, 0.5fr);
+    gap: 0px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .card {
@@ -156,8 +168,8 @@ body {
 
 .form-card {
   box-shadow: 3px 3px 2px #9aa7b2;
-  display: flex;
-  height: auto;
+  display: flexbox;
+  height: calc(auto - 100px);
   margin: 15px 14px;
   padding: 20px;
   border-radius: 10px;
@@ -169,13 +181,14 @@ body {
   color: #004aad;
 }
 
-input {
+.input-form{
   background: #e0e0e0;
   padding: 5px 16px;
   border-radius: 8px;
   font-size: large;
   border: none;
   text-align: center;
+  width: 100%;
 
 }
 
@@ -187,6 +200,7 @@ select {
   font-size: large;
   border: none;
   text-align-last: center;
+  width: 100%;
 
 }
 
@@ -199,11 +213,11 @@ select {
 }
 
 #button-form {
+  display: inline-table;
   border: none;
   padding: 15px 10px;
   border-radius: 8px;
   background: #004aad;
-  float: right;
   font-size: 18px;
   color: #e9edef;
   font-weight: 600;
@@ -220,6 +234,3 @@ hr {
   border-radius: 50%;
 }
 
-/* ----------------
-    About page style
-*/

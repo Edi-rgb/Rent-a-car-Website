@@ -1,0 +1,29 @@
+
+.h2-title{
+    margin-bottom: 20px;
+     
+}
+.card{
+    background-color: #fff;
+    height: auto;
+}
+
+.h3-title{
+    padding: 10px;
+    text-align: center;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+.map{
+    display: block;
+    border-radius: 5px;
+    max-width: 100%;
+    
+}
+
+.p-text{
+    margin-top: 20px;
+}
