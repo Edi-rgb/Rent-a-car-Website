@@ -1,11 +1,14 @@
 
 .h2-title{
     margin-bottom: 20px;
+    color: black;
      
 }
 .card{
     background-color: #fff;
     height: auto;
+    margin-bottom: 30px;
+    padding: 0px 2.5px 2.5px 10px;
 }
 
 .h3-title{
@@ -15,6 +18,7 @@
 
 hr{
     margin-bottom: 10px;
+    width: auto;
 }
 
 .map{
@@ -26,4 +30,9 @@ hr{
 
 .p-text{
     margin-top: 20px;
+}
+
+.text{
+    padding: 10px;
+    text-align: start;
 }
