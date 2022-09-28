@@ -11,6 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
     <title>KlassWagen | Contact si locatii</title>
 </head>
 
@@ -56,7 +58,7 @@
                 <p class="text p-text">Pentru orice nelamuriri sau intrebari legate de serviciile de inchiriere auto
                     Romania, puteti completa si trimite formularul de mai jos.</p>
                 <br>
-                <form action="">
+                <form id="demo-form" action="">
                     <label for="">Numele Dvs.</label>
                     <input placeholder="Numele Complet" class="input-form" type="text" name="" id=""> <br><br>
                     <label for="">Adresa email</label>
@@ -66,7 +68,11 @@
                     <label for="">Mesajul Dvs.</label>
                     <textarea placeholder="Mesajul Dumneavoastra..." class="input-form input-form-textarea" name=""
                         id="" cols="80" rows="6">  </textarea> 
-                    <button id="button-form" type="submit">Trimite</button>
+
+                        <button class="g-recaptcha" id="button-form"
+                        data-sitekey="reCAPTCHA_site_key" 
+                        data-callback='onSubmit' 
+                        data-action='submit'>Submit</button>
                 </form>
             </div>
 
@@ -79,6 +85,13 @@
                     <h1><img src="https://img.icons8.com/material/24/000000/phone--v1.png" /> Suport telefonic 24/7</h1>
                 </div>
             </footer>
+
+            <script>
+                function onSubmit(token) {
+                  document.getElementById("demo-form").submit();
+                }
+            </script>
+
             <script src="script.js"></script>
 </body>
 

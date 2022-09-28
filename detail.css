@@ -1,5 +1,6 @@
 
 .h2-title{
+    margin-top: 10px;
     margin-bottom: 40px;
     color: black;
      
@@ -8,7 +9,7 @@
     background-color: #fff;
     height: auto;
     padding: 10px 2.5px 2.5px 10px;
-    height: 400px;
+    display: flexbox;
 }
 
 
@@ -21,11 +22,11 @@
 
 
 .map{
-    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
     border-radius: 5px;
-    max-width: 100%;
     padding: 10px;
-    
 }
 
 .p-text{
@@ -48,4 +49,6 @@
     font-weight: 600;
 
   }
+
+
 
