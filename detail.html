@@ -11,7 +11,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <title>KlassWagen | Contact si locatii</title>
 </head>
@@ -58,7 +57,7 @@
                 <p class="text p-text">Pentru orice nelamuriri sau intrebari legate de serviciile de inchiriere auto
                     Romania, puteti completa si trimite formularul de mai jos.</p>
                 <br>
-                <form id="demo-form" action="">
+                <form id="form" action="">
                     <label for="">Numele Dvs.</label>
                     <input placeholder="Numele Complet" class="input-form" type="text" name="" id=""> <br><br>
                     <label for="">Adresa email</label>
@@ -69,9 +68,7 @@
                     <textarea placeholder="Mesajul Dumneavoastra..." class="input-form input-form-textarea" name=""
                         id="" cols="80" rows="6">  </textarea> 
 
-                        <button class="g-recaptcha" id="button-form"
-                        data-sitekey="reCAPTCHA_site_key" 
-                        data-callback='onSubmit' 
+                        <button id="button-form"
                         data-action='submit'>Submit</button>
                 </form>
             </div>
