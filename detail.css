@@ -21,6 +21,10 @@
     text-align: center;
 }
 
+.form-card{
+    display: flow-root;
+    height: auto;
+}
 
 .map{
     width: 100%;
@@ -48,7 +52,7 @@
     font-size: 17px;
     color: #e9edef;
     font-weight: 600;
-
+    
   }
 
 

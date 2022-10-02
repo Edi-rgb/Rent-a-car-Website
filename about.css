@@ -4,21 +4,24 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 15px;
-}
 
 .title-about{
     font-size: 24px;
     color: #004aad;
-    margin-top: 60px;
+    margin: 60px 15px;
     margin-bottom: 20px;
+
+}
+
+h3, p{
+    margin: 0px 15px;
 }
 
 .about-photo{
     display: block;
     border-radius: 5px;
     max-width: 100%;
+    margin: 15px;
   
   }
 
@@ -28,4 +31,6 @@ body{
     border-radius:8px ;
     font-size: 20px;
     color: bisque;
+    float: right;
+    margin-right: 10px;
 }

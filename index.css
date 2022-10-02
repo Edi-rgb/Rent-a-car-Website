@@ -168,7 +168,7 @@ body {
 
 .form-card {
   box-shadow: 3px 3px 2px #9aa7b2;
-  display: flexbox;
+  display: flow-root;
   height: calc(auto - 100px);
   margin: 15px 14px;
   padding: 20px;
@@ -213,7 +213,6 @@ select {
 }
 
 #button-form {
-  display: inline-table;
   border: none;
   padding: 15px 10px;
   border-radius: 8px;
@@ -221,6 +220,7 @@ select {
   font-size: 18px;
   color: #e9edef;
   font-weight: 600;
+  float: right;
 }
 
 label {
