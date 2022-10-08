@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 
@@ -31,4 +32,25 @@ h3, p{
     color: bisque;
     float: right;
     margin-right: 10px;
+}
+
+@media screen and (min-width: 1200px){
+
+    h1.title-about{
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    .about-photo{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+
+    .button-a-back{
+        float: right;
+    }
 }

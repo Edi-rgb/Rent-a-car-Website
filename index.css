@@ -8,8 +8,13 @@
 
 body {
   background: #e9edef;
-  font-family: sans-serif;
 
+
+}
+
+
+.offert-desktop{
+  display: none;
 }
 
 .mobile-container {
@@ -29,6 +34,7 @@ body {
 
 .topnav #myLinks {
   display: none;
+  
 }
 
 .topnav a {
@@ -360,6 +366,16 @@ hr {
     border-radius: 5px;
     text-align: center;
   }
+
+
+  .offert-desktop{
+    display: block;
+    border: 2px solid red;
+    text-align: center;
+    font-size: 22px;
+    background-color: red;
+    color: #e9edef;
+  }
   
   #button-form {
     border: none;
@@ -453,7 +469,7 @@ hr {
   }
 
   div.container{
-    margin: 0px 100px;
+    margin: 50px 100px;
   }
 
   div.form-card{
@@ -525,8 +541,20 @@ hr {
     padding-bottom: 501px;
     background-position: center;
   }
+
+  .container-text{
+    margin: 100px;
+    padding:  0px;
+  }
+
+  .offert-desktop{
+    display: block;
+    border: 2px solid red;
+    text-align: center;
+    font-size: 22px;
+    background-color: red;
+    color: #e9edef;
+  }
   
-
-
 
 }

@@ -1,8 +1,12 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 .h2-title{
     margin-top: 10px;
     margin-bottom: 40px;
     color: black;
+
      
 }
 .card{
@@ -54,6 +58,14 @@
     font-weight: 600;
     
   }
+
+
+/* laptops and desktops */
+@media screen and (min-width: 1200px){
+  div.card{
+    margin: 50px 200px;
+}
+}
 
 
 
