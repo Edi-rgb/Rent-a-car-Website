@@ -249,6 +249,8 @@ hr {
 
 
 
+
+
 /* Tablets and (mini)laptops */
 
 @media screen and (min-width: 960px){
@@ -299,9 +301,11 @@ hr {
     display: none;
   }
 
+
   .text-page-2{
     font-size: 20px;
     font-family: sans-serif;
+    
   }
 
  .title{
@@ -312,6 +316,10 @@ hr {
   .title,.center {
     font-size: 27px;
     margin-top: 56px;
+  }
+
+  .page-2-title{
+    margin-top: 150px;
   }
 
   .tel {
@@ -423,6 +431,8 @@ hr {
     margin: 0%;
     max-height: 500px;
   }
+
+
 
 }
 
