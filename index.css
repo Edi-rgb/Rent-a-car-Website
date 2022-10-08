@@ -76,6 +76,7 @@ body {
   background-color: #004aad;
   color: #f8fdfc;
   display: inline-flex;
+  float: left;
 
 }
 
@@ -112,13 +113,14 @@ body {
 @media screen and (max-width: 320px) {
   .container{
     display: grid;
-    grid-template-columns: repeat(1, 0.5fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 0px;
     margin: 10px;
     justify-content: center;
     align-items: center;
   }
 }
+
 
 .card {
   box-shadow: 3px 3px 2px #9aa7b2;
@@ -127,8 +129,6 @@ body {
   border-radius: 5px;
   height: auto;
   background: #f8f8ff;
-
-
 
 }
 
@@ -234,3 +234,175 @@ hr {
   border-radius: 50%;
 }
 
+.logo-png-desktop{
+  display: none;
+}
+
+
+
+/* Tablets and (mini)laptops */
+
+@media screen and (min-width: 960px){
+
+   .fa.fa-bars{
+    display: none;
+  }
+
+  .topnav #myLinks {
+    background: #e0e0e0;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #myLinks>a:hover{
+    border-bottom: solid 2px #004aad;
+  }
+
+  .center{
+    padding: 35px;
+    margin: 3px;
+  }
+
+  .logo-png{
+    display: block;
+  }
+
+  .logo-png-mobile{
+    display: none;
+  }
+  .logo-png-desktop{
+    float: left;
+    width: 110px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 0px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .discount-image{
+    display: none;
+  }
+
+  .text-page-2{
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+ .title{
+  padding-left: 20px;
+  
+ }
+
+  .title,.center {
+    font-size: 27px;
+    margin-top: 56px;
+  }
+
+  .tel {
+    font-size:27px ;
+  }
+
+  /* form card  */
+
+  .form-card {
+    box-shadow: 3px 3px 2px #9aa7b2;
+    display: flow-root;
+    height: calc(auto - 100px);
+    margin: 15px 14px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f8f8ff;
+  
+  }
+  
+  .form-h3 {
+    color: #004aad;
+    font-size: 22px;
+  }
+  
+  .input-form{
+    background: #e0e0e0;
+    padding: 5px 16px;
+    border-radius: 8px;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+    width: 100%;
+  
+  }
+  
+  select {
+    padding: 5px;
+    background: #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    text-align-last: center;
+    width: 100%;
+  
+  }
+  
+  #start {
+    padding: 5px;
+    border: none;
+    background: #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #button-form {
+    border: none;
+    padding: 15px 10px;
+    border-radius: 8px;
+    background: #004aad;
+    font-size: 23px;
+    color: #e9edef;
+    font-weight: 600;
+    float: right;
+  }
+  
+  label {
+    font-family: Helvetica;
+    line-height: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .text-a{
+    font-size: 18px;
+  }
+
+  .h3-title{
+    font-size: 22px;
+    margin: 10px 0px 10 0px
+  }
+
+  .p-text{
+    font-size: 20px;
+  }
+
+  .button-a-back{
+    margin: 5px;
+    padding: 5px 5px;
+  }
+
+  .button-back{
+    font-size: 222vh ;
+  }
+
+  .about-photo{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    max-height: 500px;
+  }
+
+}
