@@ -76,8 +76,11 @@ body {
   background-color: #004aad;
   color: #f8fdfc;
   display: inline-flex;
-  float: left;
 
+}
+
+.button-tel{
+  float: left;
 }
 
 .discount-image {
@@ -404,5 +407,126 @@ hr {
     margin: 0%;
     max-height: 500px;
   }
+
+}
+
+
+/* laptops and desktops */
+@media screen and (min-width: 1200px){
+
+  .logo-png-desktop{
+    float: left;
+    width: 86px;
+  }
+
+  .title{
+    margin-left: 100px;
+  }
+
+  span.tel{
+    margin-left: 100px;
+  }
+
+  .topnav #myLinks{
+    
+    padding: 0% 10px 10px 5px;
+    justify-content: space-evenly;
+  }
+
+  a.center{
+    font-size: 18px;
+  }
+
+  .page-2-title {
+    margin-top: 170px;
+    color: #004aad;
+    font-size: 28px;
+  
+  }
+
+  div#myLinks{
+    padding: 25px 5px;
+  }
+  .text-page-2 {
+    font-size: large;
+    margin: 0px 100px;
+  }
+
+  div.container{
+    margin: 0px 100px;
+  }
+
+  div.form-card{
+    margin-top: 33px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .input-form{
+    background: #e0e0e0;
+    padding: 5px 16px;
+    border-radius: 8px;
+    font-size: large;
+    border: none;
+    text-align: center;
+    width: 100%;
+  
+  }
+  
+  select {
+    padding: 5px;
+    background: #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: large;
+    border: none;
+    text-align-last: center;
+    width: 100%;
+  
+  }
+  
+  #start {
+    padding: 5px;
+    border: none;
+    background: #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #button-form {
+    border: none;
+    padding: 15px 10px;
+    border-radius: 8px;
+    background: #004aad;
+    font-size: 18px;
+    color: #e9edef;
+    font-weight: 600;
+    float: right;
+  }
+  
+  label {
+    font-family: Helvetica;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .form-card {
+    box-shadow: 3px 3px 2px #9aa7b2;
+    display: flow-root;
+    height: auto;
+  
+  }
+
+  .first-section{
+    background-image: url(/Assets/section1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 501px;
+    background-position: center;
+  }
+  
+
+
 
 }
